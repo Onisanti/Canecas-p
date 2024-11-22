@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canecas Personalizadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header com logo e navegação -->
+    <header>
+        <div class="logo">
+            <h1>Canecas Criativas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#como-funciona">Como Funciona</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="home">
+        <div class="banner">
+            <h2>Crie sua Caneca Personalizada!</h2>
+            <p>Faça o presente perfeito ou adicione um toque único ao seu dia a dia.</p>
+            <a href="#produtos" class="cta-btn">Veja Nossas Canecas</a>
+        </div>
+    </section>
+
+    <!-- Produtos em Destaque -->
+    <section id="produtos" class="section-padding">
+        <h2>Produtos em Destaque</h2>
+        <div class="produtos-container">
+            <div class="produto">
+                <img src="caneca1.jpg" alt="Caneca 1">
+                <h3>Caneca Personalizada</h3>
+                <p>A partir de R$ 29,90</p>
+                <a href="#">Personalizar</a>
+            </div>
+            <div class="produto">
+                <img src="caneca2.jpg" alt="Caneca 2">
+                <h3>Caneca com Foto</h3>
+                <p>A partir de R$ 34,90</p>
+                <a href="#">Personalizar</a>
+            </div>
+            <div class="produto">
+                <img src="caneca3.jpg" alt="Caneca 3">
+                <h3>Caneca Colorida</h3>
+                <p>A partir de R$ 24,90</p>
+                <a href="#">Personalizar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section id="como-funciona" class="section-padding">
+        <h2>Como Funciona?</h2>
+        <ol>
+            <li>Escolha a caneca que mais combina com você.</li>
+            <li>Personalize com o design, foto ou mensagem desejada.</li>
+            <li>Faça seu pedido e receba a caneca personalizada em sua casa!</li>
+        </ol>
+    </section>
+
+    <!-- Sobre a Empresa -->
+    <section id="sobre" class="section-padding">
+        <h2>Sobre Nós</h2>
+        <p>Somos apaixonados por canecas e acreditamos que um presente personalizado tem um valor único. Cada caneca que criamos é feita com muito cuidado, pensando em como ela pode tornar o dia de alguém mais especial.</p>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato" class="section-padding">
+        <h2>Contato</h2>
+        <form action="enviar_contato.php" method="POST">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Seu E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Canecas Criativas | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
