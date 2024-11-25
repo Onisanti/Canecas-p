@@ -75,6 +75,8 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .produto {
