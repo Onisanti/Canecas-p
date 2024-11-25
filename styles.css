@@ -75,8 +75,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+   
 }
 
 .produto {
@@ -102,7 +101,7 @@ nav ul li a {
 .produto a {
     background-color: #ff5722;
     color: #fff;
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-decoration: none;
     border-radius: 5px;
 }
